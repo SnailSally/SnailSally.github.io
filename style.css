@@ -1,0 +1,27 @@
+body {background-color: silver;}
+p {color:rgb(68, 124, 237); font-size:100%; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+ul {color:black}
+img {width:550px;}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #ff00bf; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    font-size: 110%;
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
+
+table, th, td {
+    border: 1px solid;
+}
